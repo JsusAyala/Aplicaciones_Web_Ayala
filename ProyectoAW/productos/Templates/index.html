@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1 Aplicaciones Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre mi</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenedor principal -->
+    <div class="main-content">
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="slides fade">
+                    <img src="Imagenes/Portada1.jpg" alt="Portada 1">
+                </div>
+                <div class="slides fade">
+                    <img src="Imagenes/Portada2.jpg" alt="Portada 2">
+                </div>
+                <div class="slides fade">
+                    <img src="Imagenes/Portada3.jpg" alt="Portada 3">
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección principal -->
+        <section>
+            <h1>Inicio</h1>
+            <p>El proposito de esta pagina es hacer uso de html y css en nuestra primer practica de Aplicaciones Web</p>
+        </section>
+
+        <!-- Sección "Sobre mí" -->
+        <section>
+            <h2>Sobre mi</h2>
+            <ul>
+                <li>Mi nombre es Jesus Alfonso Ayala</li>
+                <li>Estoy en el grupo de 3A de TI en la UTD</li>
+                <li>Mi numero de telefono es 6752394756</li>
+            </ul>
+        </section>
+
+        <!-- Galería de productos -->
+<!-- Producto 1 -->
+<div class="product-card">
+    <div class="product-image">
+        <img src="Imagenes/Xbox.jpg" alt="Consola Xbox Series S">
+    </div>
+    <div class="product-details">
+        <span class="recommended">RECOMENDADO</span>
+        <h3>Consola Xbox Series S</h3>
+        <p>Color Blanco</p>
+        <p><small>Por Microsoft</small></p>
+        <p class="original-price">$6.940</p>
+        <p class="current-price">$5.399 <span class="discount">22% OFF</span></p>
+        <p class="installments">en 15 meses sin intereses de $359,93</p>
+        <p class="shipping"><span class="free-shipping">Llega gratis hoy</span> </p>
+        <button class="buy-button" onclick="location.href='xbox-series-s.html'">Comprar ahora</button>
+    </div>
+</div>
+
+<!-- Producto 2 -->
+<div class="product-card">
+    <div class="product-image">
+        <img src="Imagenes/PS5.jpg" alt="Consola PlayStation 5">
+    </div>
+    <div class="product-details">
+        <span class="recommended">RECOMENDADO</span>
+        <h3>Consola PlayStation 5</h3>
+        <p>Color Blanco</p>
+        <p><small>Por Sony</small></p>
+        <p class="original-price">$14,000</p>
+        <p class="current-price">$12,499 <span class="discount">10% OFF</span></p>
+        <p class="installments">en 12 meses sin intereses de $1,041.58</p>
+        <p class="shipping"><span class="free-shipping">Llega gratis hoy</span> </p>
+        <button class="buy-button" onclick="location.href='ps5.html'">Comprar ahora</button>
+    </div>
+</div>
+
+<!-- Producto 3 -->
+<div class="product-card">
+    <div class="product-image">
+        <img src="Imagenes/NSwitch.jpg" alt="Nintendo Switch">
+    </div>
+    <div class="product-details">
+        <span class="recommended">RECOMENDADO</span>
+        <h3>Consola Nintendo Switch</h3>
+        <p>Color Neon Red/Neon Blue</p>
+        <p><small>Por Nintendo</small></p>
+        <p class="original-price">$7,999</p>
+        <p class="current-price">$4,999 <span class="discount">20% OFF</span></p>
+        <p class="installments">en 10 meses sin intereses de $499.90</p>
+        <p class="shipping"><span class="free-shipping">Llega gratis hoy</span> </p>
+        <button class="buy-button" onclick="location.href='nintendo-switch.html'">Comprar ahora</button>
+    </div>
+</div>
+
+<!-- Producto 4 -->
+<div class="product-card">
+    <div class="product-image">
+        <img src="Imagenes/Xbox X.jpg" alt="Xbox Series X'">
+    </div>
+    <div class="product-details">
+        <span class="recommended">RECOMENDADO</span>
+        <h3>Consola Xbox Series X</h3>
+        <p>Color Negro</p>
+        <p><small>Por Microsoft</small></p>
+        <p class="original-price">$12,999</p>
+        <p class="current-price">$10,499 <span class="discount">22% OFF</span></p>
+        <p class="installments">en 15 meses sin intereses de $733.27</p>
+        <p class="shipping"><span class="free-shipping">Llega gratis hoy</span> </p>
+        <button class="buy-button" onclick="location.href='xbox-series-x.html'">Comprar ahora</button>
+    </div>
+</div>
+
+<!-- Producto 5 -->
+<div class="product-card">
+    <div class="product-image">
+        <img src="Imagenes/NSwitch OLED.jpg" alt="Nintendo Switch OLED">
+    </div>
+    <div class="product-details">
+        <span class="recommended">RECOMENDADO</span>
+        <h3>Consola Nintendo Switch OLED</h3>
+        <p>Color Blanco</p>
+        <p><small>Por Nintendo</small></p>
+        <p class="original-price">$8,000</p>
+        <p class="current-price">$6,799 <span class="discount">15% OFF</span></p>
+        <p class="installments">en 6 meses sin intereses de $1,133.17</p>
+        <p class="shipping"><span class="free-shipping">Llega gratis hoy</span> </p>
+        <button class="buy-button" onclick="location.href='nintendo-switch-oled.html'">Comprar ahora</button>
+    </div>
+</div>
+
+                        <!-- Formulario de contacto -->
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Correo Electronico:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
